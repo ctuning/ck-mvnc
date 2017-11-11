@@ -3,7 +3,15 @@
   "data_name": "ck-mvnc", 
   "dict": {
     "url": "https://github.com/ctuning/ck-mvnc", 
-    "shared": "git"
+    "shared": "git",
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-autotuning"
+      },
+      {
+        "repo_uoa": "ctuning-datasets-min"
+      }
+    ] 
   }, 
   "data_alias": "ck-mvnc", 
   "data_uoa": "ck-mvnc"
