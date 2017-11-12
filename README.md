@@ -37,6 +37,7 @@ $ ck run program:demo-mvnc-yolo --cmd_key=classify-objects-in-webcam
 You can change webcam ID with width and height as following:
 ```
 $ ck run program:demo-mvnc-yolo --cmd_key=classify-objects-in-webcam --env.SRC=1 --env.WD=800 --env.HT=600
+```
 
 # Running internal Movidius examples
 ```
