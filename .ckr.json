@@ -12,7 +12,8 @@
         "repo_uoa": "ctuning-datasets-min"
       },
       {
-        "repo_uoa": "ck-caffe"
+        "repo_uoa": "ck-caffe",
+        "repo_url": "https://github.com/dividiti/ck-caffe"
       }
     ] 
   }, 
