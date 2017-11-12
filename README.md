@@ -22,6 +22,15 @@ $ ck install package --tags=caffemodel,yolo,tiny
 $ ck install package --tags=demo,mvnc,yolo
 ```
 
+##  Raspberry Pi notes
+
+Note that Movidius Neural Compute Stick can run only on Raspbian Stretch or above. 
+You can download this image for your RPi [here](https://www.raspberrypi.org/downloads/raspbian).
+
+Since this OS version doesn't have integrated OpenCV support in Python 3, you will need
+to answer "yes" to build OpenCV when installing MVNC package. It will take a very long
+time (sometimes more than an hour) but it may be worth it.
+
 # Running example with YOLO image classification
 ```
 $ ck compile program:demo-mvnc-yolo
