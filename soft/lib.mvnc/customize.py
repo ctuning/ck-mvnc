@@ -111,4 +111,8 @@ def setup(i):
            s+='\nexport PYTHONPATH=${PYTHONPATH}:'+py+'\n'
        s+='\n'
 
+    src_path=cus.get('src_path','')
+    if src_path!='' and os.path.isdir(src_path):
+       env[ep+'_SRC']=src_path
+
     return {'return':0, 'bat':s}

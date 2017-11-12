@@ -12,7 +12,7 @@ for [Movidius Neural Compute Stick](https://developer.movidius.com/start).
 It also contains wrappers for YOLO object detection example 
 from [this GitHub repository](https://github.com/gudovskiy/yoloNCS).
 
-# Installation on Linux
+# Installing on Linux
 ```
 $ sudo pip install ck
 $ ck pull repo:ck-mvnc
@@ -22,13 +22,13 @@ $ ck install package --tags=caffemodel,yolo,tiny
 $ ck install package --tags=demo,mvnc,yolo
 ```
 
-# Example with YOLO image classification
+# Running example with YOLO image classification
 ```
 $ ck compile program:demo-mvnc-yolo
 $ ck run program:demo-mvnc-yolo --cmd_key=classify-objects-in-images
 ```
 
-# Example with YOLO object detection from a webcam
+# Running example with YOLO object detection from a webcam
 ```
 $ ck compile program:demo-mvnc-yolo
 $ ck run program:demo-mvnc-yolo --cmd_key=classify-objects-in-webcam
@@ -38,6 +38,11 @@ You can change webcam ID with width and height as following:
 ```
 $ ck run program:demo-mvnc-yolo --cmd_key=classify-objects-in-webcam --env.SRC=1 --env.WD=800 --env.HT=600
 
-# Further reading
+# Running internal Movidius examples
+```
+$ ck run program:demo-mvnc-yolo --cmd_key=run-internal-movidius-examples
+```
+
+# Further reading about unified AI project
 
 http://cKnowledge.org/ai
