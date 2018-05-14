@@ -12,9 +12,30 @@ for [Movidius Neural Compute Stick](https://developer.movidius.com/start).
 It also contains wrappers for YOLO object detection example 
 from [this GitHub repository](https://github.com/gudovskiy/yoloNCS).
 
-# Installing on Linux
+# Installing CK
+
+The minimal installation requires:
+
+* Python 2.7 or 3.3+ (limitation is mainly due to unitests)
+* Git command line client.
+
+You can install CK in your local user space as following:
+
+```
+$ git clone http://github.com/ctuning/ck
+$ export PATH=$PWD/ck/bin:$PATH
+$ export PYTHONPATH=$PWD/ck:$PYTHONPATH
+```
+
+You can also install CK via PIP with sudo to avoid setting up environment variables yourself:
+
 ```
 $ sudo pip install ck
+```
+
+# Installing MVNC CK workflow on Linux
+
+```
 $ ck pull repo:ck-mvnc
 
 $ ck install package --tags=lib,mvnc
