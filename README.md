@@ -43,6 +43,17 @@ $ ck install package --tags=caffemodel,yolo,tiny
 $ ck install package --tags=demo,mvnc,yolo
 ```
 
+# Detecting device via CK
+
+```
+$ ck detect platform.npu
+```
+
+Sharing info with the community:
+```
+$ ck detect platform.npu --share
+```
+
 ##  Raspberry Pi notes
 
 Note that Movidius Neural Compute Stick can run only on Raspbian Stretch or above. 
