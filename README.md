@@ -1,6 +1,6 @@
 # Collective Knowledge Workflows for Movidius Neural Compute Stick
 
-**All CK components can be found at [cKnowledge.io](https://cKnowledge.io) and in [one GitHub repository](https://github.com/ctuning/ai)!**
+**All CK components can be found at [cKnowledge.io](https://cKnowledge.io) and in [one GitHub repository](https://github.com/ctuning/ck-mlops)!**
 
 [![compatibility](https://github.com/ctuning/ck-guide-images/blob/master/ck-compatible.svg)](https://github.com/ctuning/ck)
 [![automation](https://github.com/ctuning/ck-guide-images/blob/master/ck-artifact-automated-and-reusable.svg)](http://cTuning.org/ae)
@@ -10,7 +10,7 @@
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 # Introduction
-This repository contains [Collective Knowledge workflows](http://cKnowledge.org/ai) 
+This repository contains [Collective Knowledge workflows](http://cKnowledge.io) 
 to automate installation and execution of AI applications 
 for [Movidius Neural Compute Stick](https://developer.movidius.com/start).
 
@@ -92,4 +92,4 @@ $ ck run program:demo-mvnc-yolo --cmd_key=run-internal-movidius-examples
 
 # Further reading about unified AI project
 
-http://cKnowledge.org/ai
+http://cKnowledge.io
